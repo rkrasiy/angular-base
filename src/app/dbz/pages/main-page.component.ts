@@ -15,10 +15,10 @@ export class MainPageComponent{
   }
 
   onDeleteCharacter(id: string):void {
-    this.dbzService.removeCharacterByID(id)
+    this.dbzService.removeCharacterByID(id);
   }
 
   onNewCharacter(character: Character):void {
-    this.dbzService.addCharacter(character)
+    this.dbzService.addCharacter(character);
   }
 }
